@@ -5,7 +5,7 @@ def oxford_comma(array)
 
     if array.size == 1
       string += item
-    elsif array.size == 2 and i + 1 != array.size
+    elsif (array.size == 2) and (i + 1 != array.size)
       string += "#{item} "
     elsif i + 1 == array.size
       string += "and #{item}"
